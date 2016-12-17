@@ -1,0 +1,33 @@
+<HTML><HEAD><TITLE>
+User Registration Form
+</TITLE></HEAD>
+<BODY>
+<b><font size="5"><u>User Registration Form</u></font></b>
+<FORM method="POST" ACTION="http://localhost/cgi-bin/regdetcgi.py">
+  <p>Name: 
+    <INPUT TYPE=text NAME=studname VALUE="" SIZE=30>
+  <p>Date of Birth: 
+    <input type="text" name="studdob">
+    (yyyy-mm-dd) </p>
+  <p>Address: 
+    <textarea NAME=studadd rows=2 cols=30></textarea>
+  </p>
+  <p>Country: 
+    <input type="radio" name="studcountry" value="U.S.A" checked>
+    U.S.A 
+    <input type="radio" name="studcountry" value="Canada">
+    Canada 
+    <input type="radio" name="studcountry" value="Other">
+    Other :
+  </p>
+  <p>Home phone #: 
+    <INPUT TYPE=text NAME=studphone VALUE="" SIZE=30>
+  </p>
+<p>E-mail address:
+<INPUT TYPE=text NAME=emailadd VALUE="" SIZE=30></p>
+  <P>
+    <INPUT TYPE=submit>
+    <INPUT TYPE=RESET>
+  </P>
+</FORM>
+</BODY></HTML>
